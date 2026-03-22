@@ -5,11 +5,12 @@ Storefront styling
 
 body {
     margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
 }
 
-/* HEADER */
+/* Header */
 header {
     background-color: #333;
     color: white;
@@ -17,13 +18,13 @@ header {
     padding: 20px;
 }
 
-/* NAVIGATION */
+/* Navigation */
 nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
     background-color: #444;
 }
 
@@ -33,10 +34,10 @@ nav ul li {
 
 nav ul li a {
     display: block;
-    padding: 12px 20px;
-    color: white;
     text-decoration: none;
+    color: white;
     background-color: #333;
+    padding: 12px 20px;
     border-radius: 4px;
     transition: background-color 0.3s;
 }
@@ -45,21 +46,21 @@ nav ul li a:hover {
     background-color: #555;
 }
 
-/* MAIN */
+/* Main content */
 main {
     max-width: 960px;
     margin: 20px auto;
 }
 
-/* SECTIONS */
+/* Section */
 section {
     background-color: white;
     padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* TABLE */
+/* Table */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -70,9 +71,11 @@ caption {
     margin-bottom: 10px;
 }
 
-th, td {
+th,
+td {
     border: 1px solid #ccc;
     padding: 12px;
+    text-align: left;
 }
 
 thead {
@@ -81,24 +84,24 @@ thead {
 }
 
 tfoot {
+    text-align: center;
     font-style: italic;
     border-top: 2px solid #000;
-    text-align: center;
 }
 
-/* COLUMN COLORS */
+/* Styled columns */
 #firstCol {
-    background-color: #e0f2fe;
+    background-color: #f9f9f9;
 }
 
-#fourthCol {
-    background-color: #fef3c7;
+#thirdCol {
+    background-color: #f9f9f9;
 }
 
-/* FOOTER */
+/* Footer */
 footer {
-    text-align: center;
     background-color: #111;
     color: white;
+    text-align: center;
     padding: 15px;
 }
